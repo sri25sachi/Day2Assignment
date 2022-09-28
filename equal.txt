@@ -1,0 +1,19 @@
+package Understanding;
+import java.lang.*;
+
+public class Isequal {
+
+	   public static void main(String[] args) {
+	      String str1 = "bangalore";
+	      String str2 = "delhi";
+	      
+	     
+	      // checking for equality
+	      boolean checkString = str2.equals(str1);
+	     
+	   
+	      System.out.println("str1 is equal to str2 = " + checkString);
+	   }
+	}
+
+
