@@ -1,0 +1,24 @@
+package Understanding;
+import java.lang.*;
+import java.util.Scanner;
+
+public class Isequal {
+
+	   public static void main(String[] args) {
+		   Scanner in = new Scanner(System.in);
+		   
+		   System.out.println("Enter First String:  ");
+	      String str1 = in.nextLine();
+	      System.out.println("Enter Second String:  ");
+	      String str2 = in.nextLine();
+	      
+	     
+	      // checking for equality
+	      boolean checkString = str2.equals(str1);
+	     
+	   
+	      System.out.println("str1 is equal to str2 = " + checkString);
+	   }
+	}
+
+
